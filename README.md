@@ -3,13 +3,13 @@ Skill / Job Recommender Application
 
 Team Members:
 
-N.G.R.Amrudha
+Amrudha N G R
 
-B.Niskriyaa
+Niskriyaa B
 
-B.M.Padmasree
+Padmasree B M
 
-B.Safreen
+Safreen B
 
 Abstract:
 
