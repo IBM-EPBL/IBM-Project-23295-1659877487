@@ -1,0 +1,125 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel=stylesheet href="static/style.css">
+ 
+  <!--font-->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Nunito&display=swap" rel="stylesheet">
+  <!--icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" >
+
+  
+  <title>Seek-Job||Display</title>
+<div class="msg">{{ msg }}</div>
+</head>
+<body>
+   <!--navbar-->
+   <nav class="navbar">
+      <h2 class="navbar-logo"><a href="#"><img src="static/images/logo.jpg"></a></h2>
+      <div class="navbar-menu">
+          <a type="button"  id="donate" href="/logout">LOGOUT</a>
+          <a type="button"  id="sponsor" href="apply">Apply Job</a>
+          <a type="button"  id="sponsor" href="display">Details</a>
+      </div>
+      <div class="menu-toggle">
+         <span class="bar"></span>
+         <span class="bar"></span>
+         <span class="bar"></span>
+    </nav>
+    <header>
+       <h1 class="header-title">
+          <br> YOUR INFORMATIONS ARE <br> <span>LISTED BELOW</span> 
+           
+       </h1>
+       
+       </header> 
+       <center>
+             <br> <h1>Your informations</h1>
+       
+      
+</center>
+<section>
+   <center>
+     <h3>With our Job portal Module, online job application process is possible. <br> Job portals are managed where vacancies are filled in. <br> Jpb seekers can log in and apply for jobs online by simply choosing the job<br> All of the details that are required may be filled in by the user.</h3>
+   </center>
+</section>
+         <section>
+    <div class="contentBx">
+        <div class="card">
+    
+  <center>
+   <h2>Information</h2>
+   <table border="1" style="width:350px; height:250px">
+    <thead>
+    <td>User name</td>
+    <td>email</td>
+    <td>qualification</td>
+    <td>Skills</td>
+    <td>Role</td>
+    <td>Company</td>
+    </thead>
+    {% for list in arr %}
+    <tr>
+        <td>{{ arr["username"] }}</td>
+        <td>{{ arr["email"] }}</td>
+        <td>{{ arr["qualification"] }}</td>
+        <td>{{ arr["skills"] }}</td>
+        <td>{{ arr["s"] }}</td>
+        <td>{{ arr["c"] }}</td>
+    </tr>
+    {% endfor %}
+   </table>  
+</center>
+  
+   
+      </div>
+    </div>
+    </div>
+   </section>
+           <BR><footer>
+            <div class="footer-wrapper">
+               <h3>Team Details</h3>
+               <p>Team ID:PNT2022TMID23033</p><br>
+               <p>Skill/Job Recommender Application</p>
+               <div class="social-media">
+                 <a href="#"><i class="fab fa-facebook-f"></i></a>
+                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                 <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+                 
+               </div>
+              
+               <div class="footer-wrapper">
+                  <h4>Authorship</h4>
+                    <a href="#">Amrudha N G R</a>
+                    <a href="#">Niskriyaa B</a>
+                    <a href="#">Padmasree B M</a>
+                      <a href="#">Safreen B </a>
+                </div>
+                
+                <div class="footer-wrapper">
+                  <h4>Contacts</h4>
+                    <a href="#">amrudha@gmail.com</a>
+                    <a href="#">niskriyaa@gmail.com</a>
+                     <a href="#">padmasree@gmail.com</a>
+                      <a href="#">safreen@gmail.com</a>
+                    
+                </div>
+                
+                <div class="footer-wrapper">
+                   <h4>Account</h4>
+                     <a href="register">Signup/Register</a>
+                     <a href="login">Signin/Login</a>
+                </div>
+                 <div class="footer-wrapper">
+                    <h4>Community</h4>
+                      <a href="#">Community</a>
+                      <a href="#">Invite a friend</a>
+                 </div>
+                  
+                  
+             </footer>  
+</body>
+</html>

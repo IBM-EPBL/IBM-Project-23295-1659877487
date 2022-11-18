@@ -1,0 +1,19 @@
+
+    /* our focus */
+    .our-focus .container {
+        margin-top:3rem !important;
+    }
+
+    .our-focus .row{
+        margin-top:1.5rem !important;
+    }
+    .our-focus .card {
+        border: none !important;
+    }
+    .our-focus #focus-first {
+        margin-right:80px;
+    }
+    .our-focus #focus-second {
+        margin-right:90px;
+    }
+   
