@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Register page</title>
+    <link rel="stylesheet" href="static/login1css.css">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+   
+    <div class="container">
+      <input type="checkbox" id="flip">
+      <div class="cover">
+        <div class="front">
+          <img src="static/images/backImg.jpg" alt="">
+          <div class="text">
+            <span class="text-1">Complete miles of journey<br> with one step</span>
+            <span class="text-2">Let's get started</span>
+          </div>
+        </div>
+      </div>
+        <div class="forms">
+            <div class="form-content">
+              <div class="login-form">
+                <div class="title">APPLY NOW</div>
+                <div class="msg">{{ msg }}</div>
+       <form action="/apply" method="post"
+            <div class="input-boxes">
+              <div class="input-box">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Enter Username" id="username" name="username"required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input type="email" placeholder="Enter your email" id="email" name="email" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input type="text" placeholder="Enter your qualification" id="qualification" name="qualification" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input type="skills" placeholder="Enter your skills" id="skills" name="skills"required>
+              </div>
+<div class="input-box">
+ Select the role: <select name ="s" value="Select the role">
+<option value ="Business development">Manager</option>
+<option value ="Web Designer">Web designer</option>
+<option value ="Stack Developer">Stack Developer</option>
+<option value ="Graphic Designer">Graphic Designer</option>
+<option value ="Asst Manager">Asst Manager</option>
+<option value ="Intern">intern</option>
+<option value ="Php Developer">Php Developer</option>
+<option value ="Technical Recruiter">Recruiter</option>
+</select>
+</div>
+<div class="input-box">
+ Select the Company:<select name ="c" value="In company">
+<option value ="updev">Updev</option>
+<option value ="Juiceup">JuiceUp</option>
+<option value ="TeachNook">TeachNook</option>
+<option value ="Blupor">Blupor</option>
+<option value ="Brand Maker">Brand Maker</option>
+<option value ="JobWorx">Job Worx</option>
+<option value ="Spn works">SPN works</option>
+<option value ="7 seas">7 Seas</option>
+<option value ="Upon">Upon</option>
+</select>
+</div>
+              <div class="button input-box">
+               <button type="submit" id="button" class="btn btn-primary"> Submit</button>
+              </div>
+              <div class="text sign-up-text">click here to go to dashboard <a href="dashboard">Dashboard!</a></div>
+            </div>
+      </form>
+         </div>
+          
+       </div>
+     </div>
+   </body>
+   </html>

@@ -1,0 +1,318 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel=stylesheet href="static/style.css">
+  <!--font-->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Nunito&display=swap" rel="stylesheet">
+  <!--icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" >
+  <!--swiper-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  
+  <title>Seek-Job</title>
+</head>
+<body>
+   <!--navbar-->
+   <nav class="navbar">
+      <h2 class="navbar-logo"><a href="#"><img src="static/images/logo.jpg"></a></h2>
+      <div class="navbar-menu">
+          <a type="button" href="index">Home</a>
+         <a type="button" href="/register">Register </a>
+          <a type="button" href="/login">Sign In </a>
+      </div>
+      <div class="menu-toggle">
+         <span class="bar"></span>
+         <span class="bar"></span>
+         <span class="bar"></span>
+    </nav>
+    <!--header-->
+    <header>
+       <h1 class="header-title">
+           FIND YOUR <br> <span>PERFECT & DREAM JOB</span> <br> EASILY<br>
+           <marquee width="100%" direction="left" height="100px">
+We are not looking for job seekers. We want changemakers!
+</marquee>
+       </h1>
+       
+       </header>
+       <searchh>
+       <!--search-->
+       <div class="search-wrapper">
+        <div class="search-box">
+           <div class="search-card">
+              <input class="search-input" type="text" placeholder="Job title">
+              <button class="search-button">Search</button>
+            </div>
+        </div>
+      </div>
+      <br>
+      <!--filter box-->
+      <div class="filter-box">
+        <div class="filter-dropdown">
+         <select class="filter-select" id="job-level" name="job-level">
+             <option>Job level</option>
+             <option>Entry</option>
+             <option>Mid-Senior</option>
+             <option>Director</option>  
+         </select>
+         <select class="filter-select" id="job-function" name="job-function">
+            <option> Job function</option>
+            <option>IT</option>
+            <option>Manager</option>
+            <option>Education</option>
+         </select>
+         <select class="filter-select" id="qualification" name="qualification">
+            <option>Qualification</option>
+            <option>High School</option>
+            <option>Bachelor's degree</option>
+            <option>Master's degree</option>
+         </select>
+          <select class="filter-select" id="location" name="location">
+             <option>Locations</option>
+             <option>Chennai</option>
+             <option>Banglore</option>
+             <option>Mumbai</option>
+          </select>
+          <select class="filter-select" id="employement" name="employment">
+             <option>Employement Type</option>
+             <option>Internship</option>
+             <option>Part time</option>
+             <option>Full time</option>
+          </select>
+          
+        </div>
+        
+      </div>
+      <!--Job listing-->
+      <section class="job-list" id="jobs">
+        <div class="job-card">
+          <div class="job-name">
+             <img class="job-profile" src="static/images/tesla1.svg">
+             <div class="job-detail">
+                <h4>Tesla</h4>
+                <h3>Mechanical Engineer</h3>
+                <p>A Mechanical Design Engineer is responsible for<br>bringing parts from concept</p>
+             </div>
+          </div>
+          <div class="job-label">
+             <a class="label-a" href="#">HTML</a>
+              <a class="label-b" href="#">CSS</a>
+               <a class="label-c" href="#">Javascript</a>
+          </div>
+          <div class="job-posted">
+            Posted 2 mins ago
+        </div>
+        </div>
+        <div class="job-card">
+          <div class="job-name">
+             <img class="job-profile" src="static/images/ebay1.svg">
+             <div class="job-detail">
+                <h4>E-commerce</h4>
+                <h3>Business Development</h3>
+                <p>Business development is a good career choice <br>even if it comes with a diverse set of challenges</p>
+             </div>
+          </div>
+          <div class="job-label">
+             <a class="label-a" href="#">HTML</a>
+              <a class="label-b" href="#">CSS</a>
+               <a class="label-c" href="#">Javascript</a>
+          </div>
+          <div class="job-posted">
+            Posted 7 mins ago
+        </div>
+        </div>
+        <div class="job-card">
+          <div class="job-name">
+             <img class="job-profile" src="static/images/youtube-icon.svg">
+             <div class="job-detail">
+                <h4>Youtube</h4>
+                <h3>UI UX Designer</h3>
+                <p>For designing the responsive pages we want <br>UI/UX designer to evaluates the user requirements</p>
+             </div>
+          </div>
+          <div class="job-label">
+             <a class="label-a" href="#">HTML</a>
+              <a class="label-b" href="#">CSS</a>
+               <a class="label-c" href="#">Javascript</a>
+          </div>
+          <div class="job-posted">
+            Posted an hour ago
+        </div>
+        </div>
+        <button class="job-more">More List is Loading..</button>
+      </section>
+     </searchh>
+      <!--join-->
+      <section class="join">
+         <div class="join-detail">
+            <h1 class="section-title"> LETS START YOUR<br> JOB WITH US</h1>
+            
+         </div>
+       <button class="join-button">Join to start</button>
+      </section>
+      <!--featured company-->
+      <section class="featured" id="companies">
+         <h1 class="section-title">Featured Companies</h1>
+         <div class="featured-wrapper">
+            <div class="featured-card">
+               <img class="featured-image" src="static/images/ebay1.svg">
+               <p>Ebay</p>
+               <button class="featured-button">View Jobs posted</button>
+            </div>
+            <div class="featured-card">
+               <img class="featured-image" src="static/images/youtube-icon.svg">
+               <p>Youtube</p>
+               <button class="featured-button">View Jobs posted</button>
+            </div>
+            <div class="featured-card">
+               <img class="featured-image" src="static/images/tesla.svg">
+               <p>Tesla</p>
+               <button class="featured-button">View Jobs posted</button>
+            </div>
+          </div>
+      </section>
+      <!--skills-->
+     <section class="blog" id="blog" style="background-color:#99ccff">
+     <h1 class="section-title">How It Works?</h1>
+     <p>Lets see how the website works?</p>
+      <div class="blog-wrapper">
+        <div class="blog-card" style="background-color:white">
+          <img class="blog-img" src="static/images/profile1.jpg">
+          <div class="blog-detail">
+             <h4>Create an account!</h4>
+           <p>Sign up by creating an account with required details in order to avail our services. The optimal feeding of correct information will help us fine tune your job search</p>
+           <hr class="divider">
+           <a href="#" class="blog-more"></a>
+           </hr>
+          </div>
+        </div>
+         <div class="blog-card" style="background-color:white">
+           <img class="blog-img" src="static/images/profile2.jpg">
+           <div class="blog-detail">
+            <h4>Search for the Job</h4>
+            <p>Providing you with our wide database of job opportunities notified by numerous companies. You can add filters to search your desired jobs and still have a list of options to choose from.</p>
+            <hr class="divider">
+            <a href="#" class="blog-more"></a>
+            </hr>
+           </div>
+         </div>
+         <div class="blog-card" style="background-color:white">
+           <img class="blog-img" src="static/images/profile3.jpg">
+           <div class="blog-detail">
+            <h4>Apply for desired Job</h4>
+            <p>Search for jobs in your field.Research companies with openings.Prepare your resume.Decide if you need a cover letter.Submit your resume and online application</p>
+            <hr class="divider">
+            <a href="#" class="blog-more"></a>
+            </hr>
+           </div>
+         </div>
+      </div>  
+     </section>
+      <!--blog-->
+      <section class="blog" id="blog" >
+      <h1 class="section-title">Career Advices</h1>
+      <p>Learn more Career due tips from company's recruiter</p>
+       <div class="blog-wrapper">
+         <div class="blog-card">
+           <img class="blog-img" src="static/images/blog-1.jpg">
+           <div class="blog-detail">
+            <h4>How to enjoy Your Work!</h4>
+            <p>Take breaks. During a busy workday, it is important you take time away from your desk to get your mind off your job</p>
+            <hr class="divider">
+            <a href="#" class="blog-more"></a>
+            </hr>
+           </div>
+         </div>
+          <div class="blog-card">
+            <img class="blog-img" src="static/images/blog-2.jpg">
+            <div class="blog-detail">
+             <h4>Tips for Technical interview!</h4>
+             <p>Consider the tools and skills necessary for the role. Think about the basic requirements of the job.
+             Study helpful books and digital publications</p>
+             <hr class="divider">
+             <a href="#" class="blog-more"></a>
+             </hr>
+            </div>
+          </div>
+          <div class="blog-card">
+            <img class="blog-img" src="static/images/blog-3.jpg">
+            <div class="blog-detail">
+             <h4>Managing Time effectively!</h4>
+             <p>Group similar tasks together 
+             Assign time limits to tasks
+             Create a daily schedule—and stick with it
+             Avoid the urge to multitask</p>
+             <hr class="divider">
+             <a href="#" class="blog-more"></a>
+             </hr>
+            </div>
+          </div>
+       </div>  
+      </section>
+      <!--footer-->
+       <footer>
+        <div class="footer-wrapper">
+           <h3>Team Details</h3>
+           <p>Team ID:PNT2022TMID23033</p><br>
+           <p>Skill/Job Recommender Application</p>
+           <div class="social-media">
+             <a href="#"><i class="fab fa-facebook-f"></i></a>
+             <a href="#"><i class="fab fa-linkedin-in"></i></a>
+             <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+             
+           </div>
+          
+           <div class="footer-wrapper">
+              <h4>Authorship</h4>
+                <a href="#">Amrudha N G R</a>
+                <a href="#">Niskriyaa B</a>
+                <a href="#">Padmasree B M</a>
+                  <a href="#">Safreen B </a>
+            </div>
+            
+            <div class="footer-wrapper">
+              <h4>Contacts</h4>
+                <a href="#">amrudha@gmail.com</a>
+                <a href="#">niskriyaa@gmail.com</a>
+                 <a href="#">padmasree@gmail.com</a>
+                  <a href="#">safreen@gmail.com</a>
+                
+            </div>
+            
+            <div class="footer-wrapper">
+               <h4>Account</h4>
+                 <a href="/register">Signup/Register</a>
+                 <a href="/login">Signin/Login</a>
+            </div>
+             <div class="footer-wrapper">
+                <h4>Community</h4>
+                  <a href="#">Community</a>
+                  <a href="#">Invite a friend</a>
+             </div>
+              
+              
+         </footer>  
+      <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "7cb16381-61ae-455f-8312-8aedf4ae1f9b", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "7ee7effa-bbb2-471b-a5c1-78adad21acf9", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+      <script src="static/app.js"></script>
+      
+</body>
+</html>
+  
